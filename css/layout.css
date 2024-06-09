@@ -1,0 +1,44 @@
+main {
+    margin: 0px auto;
+    max-width:1200px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: rgb(222, 222, 222);
+  margin-bottom: 50px;
+}
+
+header.logo a {
+  font-size: 2rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+a:hover {
+  color: rgb(222, 222, 222);
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.index-tekst {
+  order: 2;
+}

@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(222, 222, 222);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Baskervville', serif;
+    font-weight: 200;
+    font-size: 3rem;
+    padding-top: 5px;
+    margin-left: 5px;
+}
+
+header {
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+
+dl {
+    color: rgb(255, 255, 255);
+    font-family: 'Baskervville', serif;
+    font-weight: 500;
+    font-size: 0.7rem;
+}
+
+p,
+a {
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    font-size: 2 rem;
+}
+
+img {
+    width: 200px;
+}
+
+@media (min-width: 800px) {
+    img {
+        width: 100%;
+    }
+
+footer {
+        color: rgb(255, 255, 255);
+        font-family: "Open Sans", sans-serif;
+        font-weight: 200;
+        font-size: 0.8rem;
+        margin-left: 5px;
+    }
+
+}
